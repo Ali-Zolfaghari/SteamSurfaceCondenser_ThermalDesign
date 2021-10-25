@@ -13,6 +13,7 @@
 %* [5] “Heat exchangers: selection, rating, and thermal design”, Kakac, Sadik, Liu, Hongtan, Pramuanjaroenkij, Anchasa, 2020.
 %* [6] “Compact heat exchangers”, Zohuri, Bahman, 2017.
 %* [7] “Steam condensation analysis in a power plant condenser”, Drożyński, Zbigniew, Archives of thermodynamics, 2018.
+%* [8] "Xsteam Code for Water and steam properties according to IAPWS IF-97 ",By Magnus Holmgren, www.x-eng.com.
 %***************************************************************************************************
 %*   Inputs      :
 %*   DesignType  (1: HEI Standard - 2: Sadik Reference Book )
