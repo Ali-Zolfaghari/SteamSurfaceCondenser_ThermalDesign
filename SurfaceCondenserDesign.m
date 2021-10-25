@@ -1,3 +1,28 @@
+%***************************************************************************************************
+%*   Calculate number of tube and length of them in steam surface condenser by presented code.
+%*   I take no responsibilities for any errors in the code or damage thereby.
+%*   Please notify me at zolfaghari1992iut@gmail.com if the code is used in any type of application.
+%***************************************************************************************************
+%*   Developer   : Ali Zolfaghari Sichani (20-06-2020)
+%***************************************************************************************************
+%*   References  : 
+%* [1] “Standards for Steam Surface Condensers”, Heat Exchange Institute, 1995.
+%* [2] “Problems Affecting Condenser Performance in Dr. Sherief Power Station”, said Ali, Basil Hassan, 2010, University of Khartoum.
+%* [3] “The Computer Aided Design of Steam Surface Condensers, Jang”, JY, Leu, JS, Design and Operation of Heat Exchangers, 1992.
+%* [4] “An Introduction to Chemical Cleaning of Industrial Water Systems”, Guyer, J Paul, 2018.
+%* [5] “Heat exchangers: selection, rating, and thermal design”, Kakac, Sadik, Liu, Hongtan, Pramuanjaroenkij, Anchasa, 2020.
+%* [6] “Compact heat exchangers”, Zohuri, Bahman, 2017.
+%* [7] “Steam condensation analysis in a power plant condenser”, Drożyński, Zbigniew, Archives of thermodynamics, 2018.
+%***************************************************************************************************
+%*   Inputs      :
+%*   DesignType  (1: HEI Standard - 2: Sadik Reference Book )
+%*   other input parameters are clear by their names and in SI units.
+%*   Outputs      :
+%*   Npp_tube      (Number of Tube per Pass  )  (-)
+%*   Lpp_tube      (Length of Tube per Pass  )  (m)
+%***************************************************************************************************
+
+    
 clear,clc
 close all
 format long
@@ -9,6 +34,7 @@ load('LibData');
 % =========================================================================
 
 DesignType = 2;
+
 
 Mdot_steam = 5.0;
 InletTemp_water = 22.0;
