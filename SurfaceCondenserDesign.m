@@ -19,8 +19,8 @@
 %*   DesignType  (1: HEI Standard - 2: Sadik Reference Book )
 %*   other input parameters are clear by their names and in SI units.
 %*   Outputs      :
-%*   Npp_tube      (Number of Tube per Pass  )  (-)
-%*   Lpp_tube      (Length of Tube per Pass  )  (m)
+%*   Npp_tube    (Number of Tube per Pass  )  (-)
+%*   Lpp_tube    (Length of Tube per Pass  )  (m)
 %***************************************************************************************************
 
     
